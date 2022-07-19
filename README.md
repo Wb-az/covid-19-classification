@@ -1,4 +1,4 @@
-# Non-parametric comparison of convolutional neural networks and CaiT transformer to detect COVID-19 in CT image slices.
+# Non-parametric comparison of convolutional neural networks and CaiT transformer to detect COVID-19 in chest CT scan slices.
 
 ## Introduction
 Medical classification has been  widely benefited with recent developments in computer vision,
@@ -80,13 +80,17 @@ other networks.
 
 
 * _By network_
-<img src='figures/architecture/net_ba.png' height='200'/>  <img src='figures/architecture/net_mcc.png' height='200'/>
-<img src='figures/architecture/net_f2.png' height='200'/>  <img src='figures/architecture/net_hm_epochs.png' height='200'/>
+
+
+<img src='figures/architecture/net_ba.png' height='200'/>     <img src='figures/architecture/net_mcc.png' height='200'/>
+<img src='figures/architecture/net_f2.png' height='200'/>      <img src='figures/architecture/net_hm_epochs.png' height='200'/>
 
 
 * _By experiment_
-<img src='figures/experiment/exp_ba.png' height='200'/>  <img src='figures/experiment/exp_mcc.png' height='200'/>
-<img src='figures/experiment/exp_f2.png' height='200'/>  <img src='figures/experiment/exp_hm_epochs.png' height='200'/>
+
+
+<img src='figures/experiment/exp_ba.png' height='200'/>       <img src='figures/experiment/exp_mcc.png' height='200'/>
+<img src='figures/experiment/exp_f2.png' height='200'/>       <img src='figures/experiment/exp_hm_epochs.png' height='200'/>
 
 
 ## Installation
