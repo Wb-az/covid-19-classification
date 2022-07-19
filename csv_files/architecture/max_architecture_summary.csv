@@ -1,6 +1,0 @@
-,Rank Accuracy,Median acc,Rank Epoch,Median epoch
-CaiT,4.92,98.82,3.39,8
-DenseNet-121,2.75,99.31,2.24,7
-MobileNet-v3,4.08,98.92,3.13,7
-ResNet-50,1.83,99.33999999999999,1.92,6
-ResNet-50r,1.42,99.36,4.32,8
