@@ -80,10 +80,11 @@ Our results showed that models based ResNet-50 are not only more accurate but le
 other networks.
 
 
-<img src='figures/architecture/net_ba.eps' height='200'/>
-<img src='figures/architecture/net_mcc.eps' height='200'/>
-<img src='figures/architecture/net_f2.eps' height='200'/>
-<img src='figures/architecture/net_hm_epochs.eps' height='200'/>
+<img src='figures/architecture/net_ba' height='200'/>
+<img src='figures/architecture/net_mcc' height='200'/>
+<img src='figures/architecture/net_f2' height='200'/>
+<img src='figures/architecture/net_hm_epochs
+' height='200'/>
 
 
 ## Installation
