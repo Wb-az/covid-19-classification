@@ -70,8 +70,8 @@ Architecture  | Accuracy | BA    |  F1   |  F2   |  MCC |   Sen  | Spec
 Cait          |   5.00   | 5.00  | 5.00  | 5.00  | 5.00 | 5.00   | 5.00
 DenseNet-121  |	  3.20   | 2.98  | 2.82  | 3.18  | 3.05 | 2.92   | 3.30
 MobileNet-v3-l|	  3.63   | 3.62  | 3.58  | 3.50  | 3.72 | 3.54   | 3.56
-ResNet-50	  |  *1.40   | *1.38 | 1.92  | 1.84  | *1.53| *1.75  |*1.51
-ResNet-50r	  |   1.77   | 2.02  | *1.68 | *1.47 | 1.71 | 1.80   | 1.63
+ResNet-50	  |  __1.40__   | __1.38__ | 1.92  | 1.84  | __1.53__| __1.75__  | __1.51__
+ResNet-50r	  |   1.77   | 2.02  | __1.68__ | __1.47__ | 1.71 | 1.80   | 1.63
 
 
 ## Results
@@ -80,10 +80,10 @@ Our results showed that models based ResNet-50 are not only more accurate but le
 other networks.
 
 
-<img src='figures/architecture/net_ba' height='200'/>
-<img src='figures/architecture/net_mcc' height='200'/>
-<img src='figures/architecture/net_f2' height='200'/>
-<img src='figures/architecture/net_hm_epochs
+<img src='figures/architecture/net_ba.png' height='200'/>
+<img src='figures/architecture/net_mcc.png' height='200'/>
+<img src='figures/architecture/net_f2.png' height='200'/>
+<img src='figures/architecture/net_hm_epochs.png
 ' height='200'/>
 
 
