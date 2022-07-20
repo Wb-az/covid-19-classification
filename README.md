@@ -5,7 +5,7 @@ Medical classification has been  widely benefited with recent developments in co
 especially the use of deep artificial neural networks. In this work we evaluated the performance of
 five deep learning architectures to classify COVID-19 in a multi-class setup by using.
 
-We build an experimental setup with the following neuralnetworks:
+We build an experimental setup with the following deep neural networks architectures:
 
 * CaiT-24-XXS-224 (Class Attention in image Transformers)
 * DenseNet-121
