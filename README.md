@@ -101,8 +101,8 @@ other networks.
 
 ### __Note:__
 * When running the files replace the paths/directories with your paths to files
-* The csv file contains resultsfor the comparison
-* The classification can be run directly from the jupyter notebook or in the terminal by
+* The csv file contains results for the comparison
+* The classification of COVID-19 can be run directly from the jupyter notebook  ```main_class.ipynb``` or on the terminal by
 using the command line ``` python3 /your/path/to/main_class.py ```
-* The comparison can be run on the jupyter notebook or in the terminal by using the command
+* The comparison of the models performance can be run on the jupyter notebook ```main_stats.ipynb``` or on the terminal by using the command
 line ``` python3 /your/path/to/main_stats.py ```
