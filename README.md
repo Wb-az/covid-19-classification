@@ -7,11 +7,11 @@ five deep learning architectures to classify COVID-19 in a multi-class setup by 
 
 We build an experimental setup with the following neuralnetworks:
 
-CaiT-24-XXS-224 (Class Attention in image transformers)
-DenseNet-121
-MobileNet-v3-large
-ResNet-50
-ResNet-50r (ResNet-50 with resized kernel in the firs convolution layer Conv1 from  7 X 7 to 5 x 5)
+* CaiT-24-XXS-224 (Class Attention in image Transformers)
+* DenseNet-121
+* MobileNet-v3-large
+* ResNet-50
+* ResNet-50r (ResNet-50 with resized kernel in the firs convolution layer Conv1 from  7 X 7 to 5 x 5)
 
 
 ## Experimental setup
