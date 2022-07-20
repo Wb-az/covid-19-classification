@@ -3,7 +3,6 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
-# import pandas as pd
 from PIL import Image
 
 
@@ -17,8 +16,6 @@ def training_stats(stats, model, hideplot=False):
 
     # Plot the mean loss per epoch
     fig1 = plt.figure(figsize=(8, 4))
-    # line1 = plt.plot(stats['train_loss'], label='train')
-    # line2 = plt.plot(stats['val_loss'], label='val')
     plt.plot(stats['train_loss'], label='train')
     plt.plot(stats['val_loss'], label='val')
     plt.xticks(range(len(stats['train_loss'])))
