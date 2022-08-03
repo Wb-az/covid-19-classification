@@ -150,7 +150,7 @@ def misclassification(y_true, y_pred, probs, df_test):
     return df_misses
 
 
-def train_metrics(train_dict):
+def train_metrics(**train_dict):
     """
     :param train_dict: a dictionary with the accuracy and loss logs for training and validation
     :return:  max, min accuraciies and the number of epoch to reach the maximum validation accuracy
