@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 
-def training_stats(stats, model, hideplot=False):
+def training_stats(model, hideplot=False, **stats):
     """
-    :param stats: a dctionary with accuracy and los collected during training and validation
-    :param model: astring with the name of the models
+    :param model: a string with the name of the models
     :param hideplot: boolean to display the plots
+    :param stats: a dctionary with accuracy and los collected during training and validation
     :return: plot stats from the training data
     """
 
