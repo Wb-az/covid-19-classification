@@ -2,7 +2,7 @@ from stats.non_parametric_stats import *
 from stats.results_plots import *
 
 
-def main(params):
+def main(**params):
     """
     :param params: a dictionary to access the data runs, group the data by
     experiment or by network architecture, num of bootstrap samples, plot and
