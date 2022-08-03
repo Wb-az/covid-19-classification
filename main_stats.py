@@ -126,10 +126,10 @@ if __name__ == '__main__':
             'metrics': metrics, 'n_bootstraps': 1000, 'alpha': 5.0, 'nemenyi': True,
             'hideplot': True, 'boxplot': True, 'dist_plot': False}
 
-    sum_net = main(args)
+    sum_net = main(args**)
 
     args['group'] = 'Experiment'
 
-    sum_exp = main(args)
+    sum_exp = main(args**)
 
     prob_bar(os.path.join(args['root'], 'figures'))
