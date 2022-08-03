@@ -6,8 +6,6 @@ import torch.nn as nn
 import timm
 import math
 from tqdm import tqdm
-# from torchvision import transforms as T
-# from PIL import Image
 from collections import defaultdict
 from utils import train_one_epoch, evaluate
 
@@ -66,7 +64,7 @@ def get_classification_model(model, num_classes, pretrained=True):
     return model
 
 
-def main(params_dict):
+def main(**params_dict):
     """
     :param params_dict: a dictionary with the training hyperparameters
     :return: save weigths of the trained model, plots training and validation accuracies and loss
@@ -89,12 +87,12 @@ def main(params_dict):
                                                batch_size=params_dict['batch_size'], shuffle=True,
                                                num_workers=params_dict['workers'])
     val_loader = torch.utils.data.DataLoader(params_dict['val_dataset'],
-                                             batch_size=round(params_dict['batch_size']),
+                                             batch_size= params_dict['batch_size'],
                                              shuffle=True, num_workers=params_dict['workers'])
 
     if params_dict['loss'] == 'wCE':
         loss_fn = torch.nn.CrossEntropyLoss(params_dict['weights'].to(device))
-    else:
+    else: 
         loss_fn = torch.nn.CrossEntropyLoss()
 
     if params_dict['optimizer'] == 'Adam':
