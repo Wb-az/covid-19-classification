@@ -39,7 +39,7 @@ def covid_data(data_path, classes):
     return data, data_id
 
 
-def test_evaluation(params_dict, test_df, classes):
+def test_evaluation(test_df, classes, **params_dict):
 
     if params_dict['model'] != 'cait':
 
@@ -53,7 +53,7 @@ def test_evaluation(params_dict, test_df, classes):
     w_name = 'model_final_' + str(params['epochs']) + '.pth'                                          
     checkpoint = torch.load(os.path.join(params_dict['output_dir'], w_name))
     train_stats = checkpoint['stats']
-    tr_acc, val_acc, max_acc, max_index, val_loss, min_loss, loss_idx = train_metrics(train_stats)
+    tr_acc, val_acc, max_acc, max_index, val_loss, min_loss, loss_idx = train_metrics(**train_stats)
     training_stats(checkpoint['stats'], params_dict['model'])
     
     model_ = get_classification_model(params_dict['model'], params_dict['num_classes'],
@@ -189,9 +189,9 @@ if __name__ == '__main__':
     print('Current_time', current_time)
     print('Model:', model, '|', 'run:', run, '|', 'loss:', loss, '|', 'optimizer:',
           optim)
-    stats_log = main(params)
+    stats_log = main(**params)
 
-    test_model, loader, y_true, y_predict, y_proba = test_evaluation(params, test, class_names)
+    test_model, loader, y_true, y_predict, y_proba = test_evaluation(test, class_names, **params)
 
     # Show predictions- change cait to True if model is CaiT
     fig = plt.figure(figsize=(20, 20))
