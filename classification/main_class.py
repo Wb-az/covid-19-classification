@@ -54,7 +54,7 @@ def test_evaluation(test_df, classes, **params_dict):
     checkpoint = torch.load(os.path.join(params_dict['output_dir'], w_name))
     train_stats = checkpoint['stats']
     tr_acc, val_acc, max_acc, max_index, val_loss, min_loss, loss_idx = train_metrics(**train_stats)
-    training_stats(checkpoint['stats'], params_dict['model'])
+    training_stats(params_dict['model'], hideplot=False, **train_stats)
     
     model_ = get_classification_model(params_dict['model'], params_dict['num_classes'],
                                       pretrained=False)
