@@ -92,6 +92,12 @@ other networks.
 <img src='figures/experiment/exp_ba.png' height='200'/>       <img src='figures/experiment/exp_mcc.png' height='200'/>
 <img src='figures/experiment/exp_f2.png' height='200'/>       <img src='figures/experiment/exp_hm_epochs.png' height='200'/>
 
+<p 'align='center'>
+
+  <img src='figures/prob_bar.png' width='200'/>
+  
+</p>
+
 
 ## Installation
 * Setup a  Python 3.8 environment or higher
