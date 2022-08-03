@@ -17,7 +17,7 @@ def split_dataset(df, label_col, seed=123, kfold=False):
     :param label_col:  The column with the labels
     :param kfold: boolean if True, it splits the dataste in
     training and test subsets. Training subset will be further split in K-Folds
-    :return:
+    :return: dataset subset splits
     """
     if not kfold:
         train, test = train_test_split(df, stratify=df[label_col], test_size=0.2,
