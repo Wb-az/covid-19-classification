@@ -5,7 +5,7 @@ import os
 def rank_confidence(df, formatting=2):
     """
     :param df: a data frame summarising the result of the bootstrapping
-        for al metrics, the median and the rank
+        for all metrics, the median and the rank
     :param formatting: number of digits/decimal to display
     :return: two dataframes one containing the confidence intervals per metric
         and another with the ranking and media per metric
