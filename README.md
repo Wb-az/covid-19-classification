@@ -1,4 +1,6 @@
-# Non-parametric comparison of convolutional neural networks and CaiT transformer to detect COVID-19 in chest CT scan slices.
+# Comparison of convolutional neural networks and transformers for the classification of images of COVID-19, Pneumonia and Healthy individuals as observed with Computed Tomography
+
+This work has been submitted for publication to the Journal of Imaging (2002). Please Cite as: 
 
 ## Introduction
 Medical classification has been  widely benefited with recent developments in computer vision,
