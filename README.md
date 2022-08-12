@@ -1,6 +1,7 @@
 # Comparison of convolutional neural networks and transformers for the classification of images of COVID-19, Pneumonia and Healthy individuals as observed with Computed Tomography
 
 This work has been submitted for publication to the Journal of Imaging (2002). Please Cite as: 
+Ascencio-Cabral, A., Reyes-Aldasoro, C.C., Comparison of convolutional neural networks and transformers for the classification of images of COVID-19, Pneumonia and Healthy individuals as observed with Computed Tomography, submitted to Journal of Imaging.
 
 ## Introduction
 Medical classification has been  widely benefited with recent developments in computer vision,
