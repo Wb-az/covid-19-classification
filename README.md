@@ -1,4 +1,4 @@
-# Comparison of convolutional neural networks and transformers for the classification of images of COVID-19, Pneumonia and Healthy individuals as observed with Computed Tomography
+# Comparison of convolutional neural networks and transformers for the classification of Images of COVID-19, Pneumonia and Healthy individuals as Observed with Computed Tomography
 
 This work has been published on the [Journal of Imaging](https://www.mdpi.com/2313-433X/8/9/237#cite). If you use our code and/or our manuscript please cite us as: 
 
