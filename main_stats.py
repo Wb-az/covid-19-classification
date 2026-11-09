@@ -121,7 +121,7 @@ if __name__ == '__main__':
     acc = ['Train acc', 'Val acc', 'Test acc']
     metrics = ['Acc', 'BA', 'F1', 'F2', 'MCC', 'Sens', 'Spec']
 
-    args = {'root': '/Users/aze_ace/Documents/pythonProject/covid_project',
+    args = {'root': 'pythonProject/covid_project',
             'data': 'covid_10_runs.csv', 'acc': acc, 'stats_sum': True, 'group': 'Architecture',
             'metrics': metrics, 'n_bootstraps': 1000, 'alpha': 5.0, 'nemenyi': True,
             'hideplot': True, 'boxplot': True, 'dist_plot': False}
